@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">riaoh</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="twitter_consumer_key">tJThx4yuSLxH7eaMxvFECQ</string>
+    <string name="twitter_consumer_secret">gvS5UizimdxyHJxyQKOys4IDbAYkggug9i1B70O7Q</string>
+	<string name="twitter_callback_url">https://twitter.com</string>
+	
+</resources>
