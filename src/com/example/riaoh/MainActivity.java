@@ -33,13 +33,20 @@ public class MainActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		 if (!TwitterUtils.hasAccessToken(this)) {
-	            Intent intent = new Intent(this, TwitterOAuthActivity.class);
-	            startActivity(intent);
-	            finish();
-	        }
+		//if (!TwitterUtils.hasAccessToken(this)) {
+        //    Intent intent = new Intent(this, TwitterOAuthActivity.class);
+         //   startActivity(intent);
+        //    finish();
+       // } 
 
 	}
+				
+	@Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
 
 	
 		public void switchActivity1(View v){

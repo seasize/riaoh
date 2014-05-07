@@ -4,17 +4,19 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
+    <ImageView
+        android:id="@+id/imageView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="GO!" />
+        android:src="@drawable/ria"
+         />
     
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-       android:text="Activity1"
+       android:text="リア充判定"
         android:onClick="switchActivity1"
    />
     
@@ -22,17 +24,10 @@
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-		android:text="Activity2"
+		android:text="計測開始"
         android:onClick="switchActivity2"
    />
      
-      <Button
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-		android:text="Activity3"
-        android:onClick="switchActivity3"
-   />
-    
+  
     
     </LinearLayout>
